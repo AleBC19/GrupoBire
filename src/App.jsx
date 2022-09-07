@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import QuienesSomos from "./components/QuienesSomos";
 import SeccionService from './components/SeccionService' 
+import Map from "./components/Map"; 
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <QuienesSomos/>
       <SeccionService/>
+      <Map/>
     </>
   )
 }
