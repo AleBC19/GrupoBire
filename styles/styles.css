@@ -49,6 +49,19 @@ header > nav > a {
     color: #000;
 }
 
+#services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+.service {
+    text-align: center;
+    background-color: rgb(236, 193, 136);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 2px 1px rgba(161, 142, 142, 0.418);
+}
+
 /* FOOTER */
 .footer {
     width: 100%;
