@@ -31,6 +31,21 @@ h4 { font-size: 2.8rem; }
 .no-padding { padding: 0; }
 .text-center { text-align: center; }
 
+/* ALERTA */
+.alerta {
+    background-color: rgb(223, 146, 146);
+    color: rgb(146, 33, 33);
+    border: 1px solid rgb(255, 17, 17);
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    width: 35rem;
+    text-align: center;
+    padding: .5rem;
+    margin-bottom: 3rem;
+}
+
 /* HEADER */
 header {
     display: flex;
@@ -61,6 +76,20 @@ header > nav > a {
     border-radius: 1rem;
     box-shadow: 5px 5px 2px 1px rgba(161, 142, 142, 0.418);
 }
+.container__address {
+    display: flex;
+    gap: 5;
+    align-items: center;
+    justify-content: center;
+}
+.container__address > p {
+    margin-left: 5rem;
+}
+
+#map {
+    width: 50%;
+    height: 25rem;
+}
 
 /* FOOTER */
 .footer {
@@ -84,7 +113,8 @@ header > nav > a {
     margin-bottom: 5rem;
 }
 .formulario > form {
-    background-color: rgb(233, 238, 191);
+    background-color: #ffff;
+    box-shadow: 5px 5px 2px 1px rgba(161, 142, 142, 0.418);
     padding: 5rem;
     border-radius: 1rem;
 }
@@ -104,6 +134,7 @@ header > nav > a {
     margin-bottom: 1.5rem;
     border: 1px solid rgb(192, 197, 148);
     border-radius: 1rem;
+    text-transform: uppercase;
 }
 input[type="submit"] {
     display: block;
