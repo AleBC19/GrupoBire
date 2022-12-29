@@ -57,25 +57,31 @@ const paintService = () => {
 
 const getServices = ( services ) => { 
     services.forEach( service => {
-        const { titulo, contenido } = service;
+        const { titulo, contenido, img } = service;
 
         const title = document.createElement('H3');
         title.textContent = titulo;
-
+        title.classList.add('no-margin');
         const content = document.createElement('P');
         content.textContent = contenido;
-
+        const imgHTML = document.createElement('IMG');
+        imgHTML.setAttribute('src', img);
         const serviceDiv = document.createElement('DIV');
+
         serviceDiv.classList.add('service');
+        serviceDiv.appendChild(imgHTML);
         serviceDiv.appendChild(title);
         serviceDiv.appendChild(content);
-
         document.querySelector('#services').appendChild(serviceDiv);
     });
 }
 
 const removeAlerts = () => {
     setTimeout(() => {
+        document.querySelector('.message').remove();
+    }, 3500);
+    
+    setTimeout(() => {
         document.querySelector('.alerta').remove();
-    }, 4500);
+    }, 3500);
 }

@@ -2,6 +2,12 @@
 
 <section class="container">
     <h2 class="text-center">¿Quienes Somos?</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minus accusantium numquam dolorem voluptates? Illum rerum, 
+        quibusdam praesentium architecto recusandae atque repellat est beatae voluptates, nam in. Quo, et molestiae?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minus accusantium numquam dolorem voluptates? Illum rerum, 
+        quibusdam praesentium architecto recusandae atque repellat est beatae voluptates, nam in. Quo, et molestiae?
+    </p>
 </section>
 
 <section class="container">

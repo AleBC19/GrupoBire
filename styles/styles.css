@@ -40,10 +40,26 @@ h4 { font-size: 2.8rem; }
     text-transform: uppercase;
     font-weight: 600;
     font-size: 2rem;
-    width: 35rem;
+    width: 50rem;
     text-align: center;
     padding: .5rem;
     margin-bottom: 3rem;
+}
+.message {
+    background-color: rgb(165, 224, 130);
+    color: rgb(59, 128, 50);
+    border: 1px solid rgb(47, 116, 26);
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    width: 40rem;
+    text-align: center;
+    padding: .5rem;
+    margin-bottom: 3rem;
+}
+.message > p {
+    margin: 0;
 }
 
 /* HEADER */
@@ -75,6 +91,10 @@ header > nav > a {
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 5px 5px 2px 1px rgba(161, 142, 142, 0.418);
+}
+.service > img {
+    width: 10rem;
+    margin: 0;
 }
 .container__address {
     display: flex;
